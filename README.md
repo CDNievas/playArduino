@@ -23,10 +23,10 @@ Arduino play Despacito :D
 Well its pretty easy, the system that uses to identify the notes is similar that the used by the <b>composer of nokia 3000 series</b>, so if a song is already do it there and you get the code of the composer you can translate it. For example
 
 ##### Composer representation
-This are notes of the composer <b>16a4</b> <b>8#f5</b>, where:
+This are notes of the composer <b>16a4</b>, <b>8#f5</b>, <b>4-</b> where:
 
-1. The first number represents the duration of the note, in the examples are <i>16</i> and <i>8</i>
-2. The letters represents the note: <i>a</i> and <i>#f</i>
+1. The first number represents the duration of the note, in the examples are <i>16</i>, <i>8</i> and <i>4</i>
+2. The letters represents the note: <i>a</i> and <i>#f</i>. In this case <i>-</i> represents the muted note
 3. The last number represents the scale to use for that note: <i>4</i> and <i>5</i>
 
 ##### Arduino representation
@@ -36,6 +36,7 @@ So to translate it to the arduino we use a structure like this <b>{NOTE,DURATION
 
 So all the constants starts with <b>"NOTE_?"</b> and ? represents the note and scale:
 
+0 => Muted note<br>
 NOTE_A4 => Note A in scale 4 <br>
 NOTE_AS4 => Note A# in scale 4 <br>
 NOTE_B5 => Note B in scale 5 <br>
@@ -47,6 +48,7 @@ To finish the example...
 
 <b>16a4</b> => {NOTE_A4,16}<br>
 <b>8#f5</b> => {NOTE_FS5,8}<br>
+<b>4-</b> => {0,4}<br>
 
 :musical_note::heart::musical_note: <b>If you want to collab adding more songs please be free to do it!</b> :musical_note::heart::musical_note: 
 
