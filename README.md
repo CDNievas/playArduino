@@ -4,15 +4,19 @@ Arduino play Despacito :D
 ### Circuit
 ![circuit](https://i.imgur.com/JNno81F.png)
 
-### List of songs supported
+### List of songs actually supported
 
-- Mario Main Theme
-- Mario Underworld Theme
-- Christmas Song 1
-- Christmas Song 2
-- Christmas Song 3
+- Mario Main Theme and Underworld Theme
+- Christmas Song 1, 2 and 3
 - URSS Anthem
 - Evangelion Opening
+
+##### Working on
+- Still Alive (needs fix)
+- Shooting Stars
+- Zelda
+- SAO II Opening 2
+- Darude - Sandstorm
 
 
 ### How can you create songs?

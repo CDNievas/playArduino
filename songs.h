@@ -105,4 +105,14 @@ const int evangelion[][2] = {
 	{NOTE_G4,8}, {NOTE_AS4,8}, {NOTE_AS4,8}, {NOTE_C5,8}
 };
 
+// Fix
+const int stillAlive[][2] = {
+
+	{NOTE_G4,8}, {NOTE_FS4,8}, {NOTE_E4,8}, {NOTE_E4,8}, {NOTE_FS4,8}, {NOTE_D3,8}, {NOTE_FS3,8}, {NOTE_D3,8},
+	{0,8}, {NOTE_D3,8}, {NOTE_FS3,8}, {NOTE_D3,8}, {0,8}, {NOTE_D3,8}, {NOTE_FS3,8}, {NOTE_A3,8}, {NOTE_G4,8},
+	{NOTE_FS4,8}, {NOTE_E4,8}, {NOTE_E4,4}, {NOTE_FS4,8}, {NOTE_FS4,4}, {NOTE_D4,4}, {NOTE_E4,8}, {NOTE_A3,4},
+	{NOTE_D3,8}, {NOTE_FS3,8}, {NOTE_D3,8}, {0,8}, {NOTE_D3,8}, {NOTE_FS3,8}, {NOTE_A3,8}, {NOTE_E4,4}
+
+};
+
 #endif
