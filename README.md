@@ -1,5 +1,5 @@
-# Sing Arduino
-Arduino can sing :D
+# Play Arduino
+Arduino play Despacito :D
 
 ### Circuit
 ![circuit](https://i.imgur.com/JNno81F.png)
