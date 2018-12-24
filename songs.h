@@ -9,22 +9,18 @@ const int mario_main[][2] = {
 	{0,12}, {NOTE_C7,12}, {NOTE_E7, 12},
 	{NOTE_G7,12}, {0,12}, {0,12}, {0,12},
 	{NOTE_G6,12}, {0,12}, {0,12}, {0,12},
-
 	{NOTE_C7,12}, {0,12}, {0,12}, {NOTE_G6,12},
 	{0,12}, {0,12}, {NOTE_E6,12}, {0,12},
 	{0,12}, {NOTE_A6,12}, {0,12}, {NOTE_B6,12},
 	{0,12}, {NOTE_AS6,12}, {NOTE_A6,12}, {0,12},
-
 	{NOTE_G6,9}, {NOTE_E7,9}, {NOTE_G7,9},
 	{NOTE_A7,12}, {0,12}, {NOTE_F7,12}, {NOTE_G7,12},
 	{0,12}, {NOTE_E7,12}, {0,12}, {NOTE_C7,12},
 	{NOTE_D7,12}, {NOTE_B6,12}, {0,12}, {0,12},
-
 	{NOTE_C7,12}, {0,12}, {0,12}, {NOTE_G6,12},
 	{0,12}, {0,12}, {NOTE_E6,12}, {0,12},
 	{0,12}, {NOTE_A6,12}, {0,12}, {NOTE_B6,12},
 	{0,12}, {NOTE_AS6,12}, {NOTE_A6,12}, {0,12},
-
 	{NOTE_G6,9}, {NOTE_E7,9}, {NOTE_G7,9},
 	{NOTE_A7,12}, {0,12}, {NOTE_F7,12}, {NOTE_G7,12},
 	{0,12}, {NOTE_E7,12}, {0,12}, {NOTE_C7,12},
@@ -35,20 +31,16 @@ const int mario_under[][2] = {
 
 	{NOTE_C4,12}, {NOTE_C5,12}, {NOTE_A3,12}, {NOTE_A4,12},
 	{NOTE_AS3,12}, {NOTE_AS4,12}, {0,6}, {0,3},
-
 	{NOTE_C4,12}, {NOTE_C5,12}, {NOTE_A3,12}, {NOTE_A4,12},
 	{NOTE_AS3,12}, {NOTE_AS4,12}, {0,6}, {0,3},
-
 	{NOTE_F3,12}, {NOTE_F4,12}, {NOTE_D3,12}, {NOTE_D4,12},
 	{NOTE_DS3,12}, {NOTE_DS4,12}, {0,6}, {0,3},
-
 	{NOTE_F3,12}, {NOTE_F4,12}, {NOTE_D3,12}, {NOTE_D4,12},
 	{NOTE_DS3,12}, {NOTE_DS4,12}, {0,6},
 	{0,3}, {NOTE_DS4,18}, {NOTE_CS4,18}, {NOTE_D4,18},
 	{NOTE_CS4,6}, {NOTE_DS4,6},
 	{NOTE_DS4,6}, {NOTE_GS3,6},
 	{NOTE_G3,6}, {NOTE_CS4,6},
-
 	{NOTE_C4,18}, {NOTE_FS4,18}, {NOTE_F4,18}, {NOTE_E3,18}, {NOTE_AS4,18}, {NOTE_A4,18},
 	{NOTE_GS4,10}, {NOTE_DS4,10}, {NOTE_B3,10},
 	{NOTE_AS3,10}, {NOTE_A3,10}, {NOTE_GS3,10},
@@ -108,9 +100,9 @@ const int urss[][2] = {
 
 const int evangelion[][2] = {
 	{NOTE_C4,4}, {NOTE_DS4,6}, {NOTE_F4,6}, {NOTE_DS4,6}, {NOTE_F4,8}, {NOTE_F4,8}, {NOTE_F4,8},
-	{NOTE_AS4,6}, {NOTE_GS4,8}, {NOTE_DS4,8}, {NOTE_C4,8}, 
-	{NOTE_G4,8}, {NOTE_G4,6}, {NOTE_AS4,6}, {NOTE_C4,6}, {NOTE_F4,8}, {NOTE_DS4,8},
-	{NOTE_AS4,8}, {NOTE_AS4,8}, {NOTE_G4,8}, {NOTE_AS4,8}, {NOTE_AS4,8}, {NOTE_C5,4}
+	{NOTE_AS4,8}, {NOTE_GS4,8}, {NOTE_G4,16}, {NOTE_F4,8}, {NOTE_G4,8}, {0,6},
+	{NOTE_G4,6}, {NOTE_AS4,6}, {NOTE_C5,8}, {NOTE_F4,8}, {NOTE_DS4,8}, {NOTE_AS4,8}, {NOTE_AS4,8},
+	{NOTE_G4,8}, {NOTE_AS4,8}, {NOTE_AS4,8}, {NOTE_C5,8}
 };
 
 #endif
