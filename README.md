@@ -19,7 +19,7 @@ Arduino play Despacito :D
 - Darude - Sandstorm
 
 
-### How can you create songs?
+### How can I create songs?
 Well its pretty easy, the system that uses to identify the notes is similar that the used by the <b>composer of nokia 3000 series</b>, so if a song is already do it there and you get the code of the composer you can translate it. For example
 
 ##### Composer representation
