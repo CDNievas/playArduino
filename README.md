@@ -1,5 +1,5 @@
 # Play Arduino
-Arduino play Despacito :D
+Using an arduino and a buzzer to play differents songs with a tutorial to create yours!
 
 ### Circuit
 ![circuit](https://i.imgur.com/JNno81F.png)
